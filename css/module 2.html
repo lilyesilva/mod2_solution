@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head> 
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> Module 2 Assignment</title>
+<style>
+* {
+  box-sizing: border-box;
+  margin: 0;
+	padding: 0;
+}
+
+.box {
+  position: relative;
+  float: left;
+  border: 3px solid black;
+  background-color: #ff00ff;
+  width: 75%;
+  margin: 1.5%;
+  padding: 10px;
+}
+.heading{
+  position: absolute;
+  top: 0;
+  right: 0;
+  float: right;
+  background-color: #00ff00;
+  border: 3px solid black;
+  text-align: center;
+ padding: 2px;
+ overflow: auto;
+}
+.info{
+	float:left;
+	padding: 15px;
+	overflow: auto;
+}
+
+h1 {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+
+@media (min-width: 992px) {
+	.col-lg-4{
+		float: left;
+		border: 1px 
+	}
+	.col-lg-4{
+		width: 33.33%;
+	}
+	}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6 {
+  	float: left;
+  	border: 1px 
+}
+  .col-md-6{
+    width: 50%;
+  }
+  
+}
+@media (max-width: 767px) {
+        .col-md-12 {
+        	float: left;
+        	border: 1px}
+        	.col-md-12{
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<h1> Our Menu </h1>
+ <section class="col-lg-4 col-md-6 col-md-12">
+<div class="box"> 
+	<div class="heading"> Louis </div>
+	<div class="info">Chicken meat contains about two to three times as much polyunsaturated fat as most types of red meat when measured as weight percentage. Chicken generally includes low fat in the meat itself (castrated roosters excluded). The fat is highly concentrated on the skin. </div>
+
+</div>
+</section>
+ <section class="col-lg-4 col-md-6 colmn-md-12">
+<div class= "box"> 
+ <div class="heading"> Coco </div>
+<div class="info"> Chicken is one of the best non-vegetarian sources of protein. It is lean meat, which means that it contains more amount of proteins and less amount of fat. A 100g serving of roasted chicken offers you 31g of protein, making it great for those who want to bulk up and build muscles </div>
+
+</div>
+</section>
+ <section class="col-lg-4 col-md-6 col-md-12">
+<div class= "box"> 
+	<div class="heading"> Types </div>
+<div class="info">
+Have you ever seen a healthy plate of food without some chicken? The reason chicken is always included in a healthy diet is because it is basically a lean meat, which means it doesn't have much fat. So, eating chicken regularly can actually help you lose weight in a healthy way.this work good at all . </div>
+</div>
+</section>
+</body>
+</html>
